@@ -11,30 +11,75 @@
     <div class="contenitore_generico">
         <!--Intestazione del sito-->
         <header>
-            <div class="contenitore_header">
-                <img src="./img/logo.svg" alt="logo giornale" id="logo">
-            </div>
+            <img src="./img/logo.svg" alt="logo giornale" id="logo">
         </header>
         <!--Articolo del sito-->
         <main>
             <!--Sezione di intestazione dell'articolo-->
             <section>
-                <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Barners-Lee</h1>
+                <h1 class="titolo">Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Barners-Lee</h1>
                 <div class="caption_titolo">
                     Scritto da <span id="autore">The Boleaners</span>
                     <div id="data">il 10/10/2020</div>
                 </div>
             </section>
             <!--Sezione con le foto-->
-            <figure>
-                <img src="./img/tim-1.jpg" alt="foto 1 di tim" id="foto">
-                <img src="./img/tim-2.jpg" alt="foto 2 di tim" id="foto">
-            </figure>
+            <div>
+                <img src="./img/tim-1.jpg" alt="foto 1 di tim" class="foto">
+                <img src="./img/tim-2.jpg" alt="foto 2 di tim" class="foto">
+                <div class="caption_foto">
+                    1st Photo: John S. and James L. Knight Foundation, by Scott Hersinch
+                    <br>
+                    2nd Photo: Wikimedia, by Paul Clrke
+                </div>
+            </div>
             <!--Sezione dedicata al contenuto effettivo dell'articolo-->
-           <section></section>
+            <section>
+                <!--Primo paragrafo-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt quaerat quam nulla magnam eos corporis rem iusto blanditiis, commodi optio aut enim eaque delectus totam minima nesciunt iure eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae id <span class="testo_sottolineato">doloribus explicabo praesentium eius adipisci sequi labore optio</span> consequuntur possimus, atque nostrum blanditiis alias aliquid, asperiores at eligendi unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum incidunt reiciendis fugit neque quo ipsa assumenda quia animi modi praesentium vero, ad odit, perspiciatis expedita voluptates, in impedit vitae aut.</p>
+                <!--Lista-->
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores ex libero quisquam rerum dolores error numquam, dicta nostrum nobis</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores ex libero quisquam rerum dolores error numquam, dicta nostrum nobis</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse maiores ex libero quisquam rerum dolores error numquam, dicta nostrum nobis</li>
+                </ul>
+                <!--Tabella-->
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="colonna_stretta">Lorem ipsum dolor</th>
+                            <th class="colonna_stretta">Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="blu">
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet explicabo similique fuga, animi illum nobis. Sed, asperiores nemo voluptate eum, quia nihil nobis officia expedita, quibusdam suscipit error facere?</td>
+                        </tr>
+                        <tr>
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet explicabo similique fuga, animi illum nobis. Sed, asperiores nemo voluptate eum, quia nihil nobis officia expedita, quibusdam suscipit error facere?</td>
+                        </tr>
+                        <tr class="blu">
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td class="colonna_stretta">Lorem ipsum dolor</td>
+                            <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et amet explicabo similique fuga, animi illum nobis. Sed, asperiores nemo voluptate eum, quia nihil nobis officia expedita, quibusdam suscipit error facere?</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--Secondo paragrafo-->
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim iusto optio iste illo inventore placeat numquam praesentium fuga nisi nihil, earum quibusdam asperiores accusamus et aliquam saepe laboriosam maxime rerum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit ab <span class="testo_sottolineato">blanditiis ducimus, deserunt asperiores esse enim nobis autem</span> debitis atque dolorem explicabo libero laboriosam beatae qui vel provident quaerat praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis sunt enim accusantium dignissimos quo, qui omnis temporibus inventore facere maxime alias, illum quaerat. Quia impedit asperiores autem, tenetur porro animi.</p>
+            </section>
         </main>
         <!--Parte dedicata ad altri articoli-->
-        <aside></aside>
+        <aside>
+            <h4>Potrebbe interessarti</h4>
+            <div class="foto_aside" id="foto_aside_1">Lorem ipsum dolor</div>
+            <div class="foto_aside" id="foto_aside_2">Lorem ipsum dolor</div>
+        </aside>
     </div>
 </body>
 </html>
