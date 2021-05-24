@@ -1,5 +1,6 @@
+
 .contenitore_generico{
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -11,7 +12,31 @@
     height: 100px;
 }
 
+.caption_titolo{
+    color: rgb(128, 128, 128);
+}
+
+
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#autore{
+    color: rgb(82, 162, 252);
+}
+
+#data{
+    font-size: 80%;
+}
+
 #logo{
     height: 50px;
     margin-top: 50px;
+}
+
+#foto{
+    height: 345px;
+    margin-left: 0%;
 }
